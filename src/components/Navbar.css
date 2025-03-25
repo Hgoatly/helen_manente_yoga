@@ -1,0 +1,31 @@
+/* Fix the navbar to the top of the screen */
+
+.navigation {
+    position: sticky; /* Keep navbar fixed at the top */
+    top: 65%; /* Adjust this value to lower the navbar down */
+    left: 0;
+    z-index: 10;
+}
+  /* Optional: Prevent content from hiding under the navbar */
+  .navCol {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navButton {
+    background: transparent !important;
+    min-width: 100px;
+    backdrop-filter: blur(20px);
+  }
+  
+  .navButton a {
+    color: #fff !important;
+    text-decoration: none;
+  }
+
+ .btn-primary {
+    border: none !important;
+  }
+
+
+  
