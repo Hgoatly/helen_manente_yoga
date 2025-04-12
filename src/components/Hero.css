@@ -8,17 +8,17 @@
 
 .hero-image {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container without distortion */
 }
 
 .helen-logo {
-  position: absolute;
-  top: 30vh;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 525px;
-  z-index: 10;
+  position: absolute; /* Position the logo on top of the hero image */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for the logo's dimensions */
+  width: 450px; /* Adjust size for mobile */
+  z-index: 10; 
   background: transparent !important;
   backdrop-filter: blur(20px);
 }

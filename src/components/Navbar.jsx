@@ -20,7 +20,7 @@ function HelenNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-          <Nav.Link className="nav-link" as={Link} to="/home">Home</Nav.Link>
+          <Nav.Link className="nav-link" as={Link} to="/">Home</Nav.Link>
             <Nav.Link className="nav-link" as={Link} to="/about">About</Nav.Link>
             <Nav.Link className="nav-link" as={Link} to="/blog">Blog</Nav.Link>
             <NavDropdown title="Classes" id="basic-nav-dropdown">

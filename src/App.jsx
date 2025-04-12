@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import HomepageText from './components/HomepageText';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -21,6 +22,7 @@ function AppContent() {
       {location.pathname === '/' && (
         <div className="container-fluid">
           <Hero />
+          <HomepageText />
         </div>
       )}
       <Routes>
@@ -34,7 +36,7 @@ function AppContent() {
 }
 
 function Home() {
-  return <div>Home Page</div>;
+  return <div></div>;
 }
 
 function About() {

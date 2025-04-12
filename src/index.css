@@ -54,6 +54,14 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+h1 {
+  font-family: 'Abhaya Libre', serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
