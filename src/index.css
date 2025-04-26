@@ -28,11 +28,13 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  color: #111; 
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: 'Abhaya Libre', serif;
 }
 
 button {
@@ -52,10 +54,6 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-h1 {
-  font-family: 'Abhaya Libre', serif;
 }
 
 p {

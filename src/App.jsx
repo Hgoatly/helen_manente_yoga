@@ -1,50 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import HomepageText from './components/HomepageText';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './pages/Home';
+import About from './pages/About';
+import Blog from './pages/Blog';
+import Book from './pages/Book';
 
 function App() {
   return (
     <Router basename="/helen_manente_yoga">
-      <AppContent />
-    </Router>
-  );
-}
-
-function AppContent() {
-  const location = useLocation();
-
-  return (
-    <>
       <Navbar />
-      {location.pathname === '/' && (
-        <div className="container-fluid">
-          <Hero />
-          <HomepageText />
-        </div>
-      )}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/book" element={<Book />} />
       </Routes>
-    </>
+    </Router>
   );
-}
-
-function Home() {
-  return <div></div>;
-}
-
-function About() {
-  return <div>About Page</div>;
-}
-
-function Blog() {
-  return <div>Blog Page</div>;
 }
 
 export default App;

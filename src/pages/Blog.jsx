@@ -4,7 +4,6 @@
  function Blog() {
    return (
      <div>
-         <Navbar />
        <h1>
          Write your blogs here!
        </h1>

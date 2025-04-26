@@ -1,9 +1,11 @@
 .homepage-text {
-    margin: 50px 122px;
+    padding: 50px 122px;
+    color: #111 !important;
+    background: #ddd !important;
 }
 
 @media screen and (max-width: 768px) {
     .homepage-text {
-        margin: 50px 20px;
+        padding: 20px;
     }
 }
