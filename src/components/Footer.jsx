@@ -8,9 +8,30 @@ function Footer() {
     return(
         <>
         <footer className="helen-footer">
-        <Container fluid>
-        <Row>
-          <Col>1 of 1</Col>
+        <Container>
+        <Row className='footer-row'>
+          <Col>
+            <ul className="footer-links">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/book">Book a Class</a></li>
+            </ul>  
+          </Col>
+            <Col>
+                <ul className="footer-links">
+                    <li><a href="">Contact</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100086441554105" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/helenmanenteyoga" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC1Z5k4b2f8e9c3d7e5f8e9c" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                </ul>
+            </Col>
+            <Col>
+                <ul className="footer-links">
+                    <li><a>Column 3</a></li>
+                </ul>
+            </Col>
+            <p className="footer-copyright text-center">© {new Date().getFullYear()} Helen Manente Yoga. All rights reserved.</p>
         </Row>
       </Container>
         </footer>
