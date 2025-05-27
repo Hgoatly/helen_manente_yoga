@@ -10,8 +10,9 @@ function Footer() {
         <footer className="helen-footer">
         <Container>
         <Row className='footer-row'>
-        <Col>
+        <Col><a href="/">
             <img src="src\assets\helen-yoga.svg" alt="Helen Manente Yoga Logo" className="footer-logo" />
+            </a>
             </Col>
           <Col>
             <ul className="footer-links" role="list">
