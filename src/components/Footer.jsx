@@ -12,8 +12,7 @@ function Footer() {
         <footer className="helen-footer">
         <Container>
         <Row className='footer-row'>
-        <Col><a as={Link} to="/"><img className="helen-logo-navbar" src={helenLogo} alt="Helen Manente Yoga" />
-            <img src="/helen-yoga.svg" alt="Helen Manente Yoga Logo" className="footer-logo" />
+        <Col><a as={Link} to="/"><img className="footer-logo" src={helenLogo} alt="Helen Manente Yoga" />
             </a>
             </Col>
           <Col>
