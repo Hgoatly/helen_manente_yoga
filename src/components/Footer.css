@@ -2,12 +2,15 @@
     background-color: #f8f9f7 !important;
  }
 
-.footer-row {
-    padding-top: 25px !important;
-}
 
+.footer-logo {
+    width: 200px;
+    height: auto;
+    margin: 10px 0 20px 0;
+ }
  .footer-links {
     list-style-type: none;
+    padding-top: 25px !important;
  }
 
  .footer-links li a {
