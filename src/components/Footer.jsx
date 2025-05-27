@@ -3,6 +3,8 @@ import './Footer.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {Link} from "react-router-dom";
+import helenLogo from '../assets/helen-yoga.svg';
 
 function Footer() {
     return(
@@ -10,8 +12,8 @@ function Footer() {
         <footer className="helen-footer">
         <Container>
         <Row className='footer-row'>
-        <Col><a href="/">
-            <img src="src\assets\helen-yoga.svg" alt="Helen Manente Yoga Logo" className="footer-logo" />
+        <Col><a as={Link} to="/"><img className="helen-logo-navbar" src={helenLogo} alt="Helen Manente Yoga" />
+            <img src="/helen-yoga.svg" alt="Helen Manente Yoga Logo" className="footer-logo" />
             </a>
             </Col>
           <Col>
