@@ -5,7 +5,7 @@ function Book() {
   return (
     <div>
       <h1>
-        Book your classes here!
+        Book a class
       </h1>
       <Booking />
     </div>

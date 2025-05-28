@@ -6,11 +6,13 @@ import "../components/Hero.css";
 import "../components/HomepageText.css";
 
 
+
  function Home() {
    return (
      <div>
         <Hero />
         <HomepageText />
+        
      </div>
    )
  }

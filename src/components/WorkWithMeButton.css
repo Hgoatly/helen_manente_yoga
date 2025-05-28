@@ -1,0 +1,15 @@
+.work-with-me-button-container {
+    margin-top: 30px;
+}
+
+.work-with-me-button {
+    background-color: #013e6d;
+    border: 1px solid #013e6d;
+    font-family: Lato, sans-serif;
+}
+
+.work-with-me-button:hover {
+    background-color: #fff;
+    color: #013e6d;
+    border-color: #0a4f7c;
+}

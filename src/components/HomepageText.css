@@ -4,8 +4,16 @@
     background: #ddd !important;
 }
 
+h1 {
+    color: #013e6d;
+}
+
 @media screen and (max-width: 768px) {
     .homepage-text {
         padding: 20px;
     }
+}
+
+h1 {
+    color: #013e6d;
 }
