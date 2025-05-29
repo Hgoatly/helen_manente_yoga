@@ -4,9 +4,6 @@ import Booking from '../components/Booking'
 function Book() {
   return (
     <div>
-      <h1>
-        Book a class
-      </h1>
       <Booking />
     </div>
   )

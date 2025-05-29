@@ -1,15 +1,10 @@
  // Blog.js
  import React from 'react'
- import './Blog.css'; // Assuming you have a Blog.css for styling
+ import './Blog.css';
+ import Blogs from '../components/Blogs';
  function Blog() {
    return (
-
-    <div className="blog-page">
-       <h1 className="blog-title">
-         Helen Manente Yoga Blogs
-       </h1>
-     </div>
-     
+    <Blogs/>
    )
  }
 
