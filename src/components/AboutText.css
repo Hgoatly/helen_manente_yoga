@@ -1,0 +1,15 @@
+.about-text-outer {
+    padding: 50px 122px;
+    color: #111 !important;
+    background: #ddd !important;
+}
+
+h1 {
+    color: #013e6d;
+}
+
+@media screen and (max-width: 768px) {
+    .about-text-outer {
+        padding: 20px;
+    }
+}

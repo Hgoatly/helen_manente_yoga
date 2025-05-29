@@ -5,7 +5,7 @@
 function AboutText() {
     return(
         <>
-        <div className="homepage-text">
+        <div className="about-text-outer">
         <h1 className="about-title">
             About Helen Manente Yoga</h1>
         <p className="about-text">Hello there! I’m Helen, and I teach yoga in and around Gravesend, Kent.</p>
