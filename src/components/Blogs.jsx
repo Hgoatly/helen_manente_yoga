@@ -8,9 +8,14 @@ function Blogs() {
           <h1 className="blog-title">
             Helen Manente Yoga Blogs
           </h1>
+          <SubstackFeed />
         </div>
         </>
     )
 }
 
 export default Blogs;
+
+import SubstackFeed from './SubstackFeed';
+
+
