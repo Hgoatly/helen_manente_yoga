@@ -6,7 +6,7 @@ function Blogs() {
         <>
         <div className="blog-page">
           <h1 className="blog-title">
-            Helen Manente Yoga Blogs
+            Helen Manente Notes on Yoga
           </h1>
           <SubstackFeed />
         </div>
