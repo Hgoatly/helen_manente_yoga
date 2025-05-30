@@ -24,26 +24,32 @@ const SubstackFeed = () => {
   // This runs every time posts or visibleCount change
   useEffect(() => {
     const addClassNameToParagraphs = () => {
-        const paragrahs = document.querySelectorAll('.post-content p');
-        paragrahs.forEach((p) => {
-          p.classList.add('substack-paragraph');
-        });
-    }
-    const addClassNameToImages = () => {
-      const images = document.querySelectorAll('.post-content img');
-      if (images.length > 0) {
-        images[0].classList.add('substack-image-first');
-        images.forEach((img) => {
-            if(img.classList.contains('substack-image-first')) return; // Skip the first image
-        img.classList.add('substack-image');
+      const paragraphs = document.querySelectorAll('.post-content p');
+      paragraphs.forEach((p) => {
+        p.classList.add('substack-paragraph');
       });
-    }
-      
-       // Add a specific class to the first image
     };
-    addClassNameToParagraphs();
-    addClassNameToImages();
-  }, [posts, visibleCount]); // Runs again after render when new posts are shown
+  
+    const addClassNameToImages = () => {
+      const postContent = document.querySelectorAll('.post-content');
+      postContent.forEach((content) => {
+        const images = content.querySelectorAll('img');
+        if (images.length > 0) {
+          images[0].classList.add('substack-image-first');
+          images.forEach((img) => {
+            if (img.classList.contains('substack-image-first')) return; // Skip the first image
+            img.classList.add('substack-image');
+          });
+        }
+      });
+    };
+  
+    // Only run if posts are loaded and visibleCount > 0
+    if (posts.length > 0) {
+      addClassNameToParagraphs();
+      addClassNameToImages();
+    }
+  }, [posts, visibleCount]); // Runs again after render when new posts are shown// Runs again after render when new posts are shown
 
   const handleLoadMore = () => {
     setVisibleCount(prevCount => prevCount + 1);
