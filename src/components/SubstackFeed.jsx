@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './SubstackFeed.css';
+import Button from 'react-bootstrap/Button';
 
 const SubstackFeed = () => {
   const [posts, setPosts] = useState([]);
@@ -33,6 +34,10 @@ const SubstackFeed = () => {
     const addClassNameToImages = () => {
       const postContent = document.querySelectorAll('.post-content');
       postContent.forEach((content) => {
+        const date = content.querySelector('.substack-paragraph');
+        if (date) {
+          date.classList.add('substack-date');
+        }
         const images = content.querySelectorAll('img');
         if (images.length > 0) {
           images[0].classList.add('substack-image-first');
@@ -69,9 +74,9 @@ const SubstackFeed = () => {
       ))}
 
       {visibleCount < posts.length && (
-        <button onClick={handleLoadMore} style={{ marginTop: '1rem' }}>
+        <Button onClick={handleLoadMore} style={{ marginTop: '1rem' }} className="load-more-button">
           Load More
-        </button>
+        </Button>
       )}
     </div>
   );
