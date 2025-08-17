@@ -1,0 +1,29 @@
+.contact-page{
+    height: 75vh;
+    background: #eee !important;
+    padding: 50px 122px;
+}
+
+
+form {
+    margin-top: 30px;;
+}
+
+.btn-block {
+    width: 100%;
+    background-color: #013e6d;
+    color: #fff;
+   margin-top: 20px;
+}
+
+.btn-block:hover {
+    background-color: #fff;
+    color: #013e6d;
+    border: 1px solid #013e6d;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-page {
+        height: 90vh;
+    }
+}

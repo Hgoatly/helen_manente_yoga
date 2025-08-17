@@ -21,6 +21,7 @@ function Footer() {
               <li role="listItem"><a href="/about">About</a></li>
               <li role="listItem"><a href="/blog">Blog</a></li>
               <li role="listItem"><a href="/book">Book a Class</a></li>
+              <li role="listItem"><a href="/book">Contact</a></li>
             </ul>  
           </Col>
             <Col>

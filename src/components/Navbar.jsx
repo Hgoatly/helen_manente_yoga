@@ -20,6 +20,7 @@ function HelenNavbar() {
           <Nav.Link className="nav-link" as={Link} to="/">Home</Nav.Link>
             <Nav.Link className="nav-link" as={Link} to="/about">About</Nav.Link>
             <Nav.Link className="nav-link" as={Link} to="/blog">Blog</Nav.Link>
+            <Nav.Link className="nav-link" as={Link} to="/contact">Contact</Nav.Link>
             <NavDropdown title="Classes" id="basic-nav-dropdown">
               <NavDropdown.Item className="nav-link-dropdown" href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item className="nav-link-dropdown" href="#action/3.2">
