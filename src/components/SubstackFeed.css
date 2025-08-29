@@ -1,4 +1,4 @@
- .post-content a {
+ .post-content .image-link {
     display: flex !important;
     justify-content: center !important;
   }
@@ -47,9 +47,14 @@
     font-size: 18px;
 }
 
-.post-content a {
+/*.post-content a {
     text-decoration: none;
-    color: #111;
+    color: #111 !important;
+    font-weight: bold;
+} */
+
+.accordion-body a {
+    color: #013e6d !important;
     font-weight: bold;
 }
 

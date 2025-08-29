@@ -1,7 +1,28 @@
 import React from 'react';
 import './ContactForm.css';
+import { useState } from "react";
 
-function ContactForm() {
+export default function ContactForm() {
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const form = e.target;
+
+    const data = new FormData(form);
+
+    try {
+      await fetch("https://formsubmit.co/helenmanenteyoga@gmail.com", {
+        method: "POST",
+        body: data,
+      });
+      setStatus("✅ Message sent!");
+      form.reset();
+    } catch (err) {
+      setStatus("❌ Something went wrong.");
+    }
+  };
+
     return (
       <section className="contact-page">
         <div className="container">
@@ -9,7 +30,7 @@ function ContactForm() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <form
             target="_blank"
-            action="https://formsubmit.co/helenmanenteyoga@gmail.com"
+            action="https://formsubmit.co/45ea9e2cad8fe549833beb33a1acad74"
             method="POST"
           >
             <div className="form-group">
@@ -52,4 +73,3 @@ function ContactForm() {
       );
 }
 
-export default ContactForm;
