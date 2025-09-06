@@ -8,7 +8,7 @@ function Blogs() {
           <h1 className="blog-title">
             Helen Manente Notes on Yoga
           </h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Welcome to Notes on Yoga, my Substack publication. It’s my place to share anything yoga, music and Tolkien related that takes my fancy! Here you’ll find a range of blogs, including pose breakdowns, philosophical ramblings and writings about new events and projects. You are, of course, able to read them here, but I’d LOVE it if you’d subscribe on Substack too.</p>
           <SubstackFeed />
         </div>
         </>

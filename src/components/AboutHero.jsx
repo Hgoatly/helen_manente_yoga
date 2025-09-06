@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutHero.css';
-import AboutHeroImage from '../assets/helen-headstand.jpg';
+import AboutHeroImage from '../assets/helen_manente_about_collage_dt.png';
 
 function AboutHero() {
     return(

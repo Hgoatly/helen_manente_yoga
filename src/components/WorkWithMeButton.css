@@ -3,13 +3,14 @@
 }
 
 .work-with-me-button {
-    background-color: #013e6d;
-    border: 1px solid #013e6d;
+    background-color: #26433b;
+    border: 1px solid #26433b;
     font-family: Lato, sans-serif;
+    color: #e6efe9 !important;
 }
 
 .work-with-me-button:hover {
-    background-color: #fff;
-    color: #013e6d;
-    border-color: #0a4f7c;
+    background-color: #e6efe9;
+    color: #26433b;
+    border-color: #26433b;
 }

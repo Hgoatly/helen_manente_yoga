@@ -11,15 +11,15 @@ form {
 
 .btn-block {
     width: 100%;
-    background-color: #013e6d;
-    color: #fff;
+    background-color: #26433b;
+    color: #e6efe9;
    margin-top: 20px;
 }
 
 .btn-block:hover {
-    background-color: #fff;
-    color: #013e6d;
-    border: 1px solid #013e6d;
+    background-color: #e6efe9;
+    color: #26433b;
+    border: 1px solid #26433b;
 }
 
 @media screen and (max-width: 768px) {

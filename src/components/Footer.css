@@ -1,5 +1,5 @@
 .helen-footer {
-    background-color: #f8f9f7 !important;
+    background-color: #26433b !important;
  }
 
 
@@ -14,7 +14,7 @@
  }
 
  .footer-links li a {
-    color: #000000A6 !important;
+    color: #e6efe9 !important;
     text-decoration: none;
     font-family: 'Abhaya Libre', serif;
     font-size: 18px;
@@ -24,7 +24,7 @@
  .footer-copyright {
     font-family: 'Abhaya Libre', serif;
     font-size: 16px;
-    color: #000000A6 !important;
+    color: #e6efe9 !important;
     padding: 10px 0;
  }
 

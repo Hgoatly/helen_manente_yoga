@@ -8,11 +8,11 @@
 }
 
 .accordion-button {
-    color:#013e6d !important;
+    color:#26433b  !important;
 }
 
 .accordion-button::after {
-    color: #013e6d !important;
+    color: #26433b !important;
 }
 
 /* Optional: Add responsiveness for smaller screens */
@@ -24,7 +24,7 @@
   } */
 
 .post-content {
-    border: 1.5px solid #013e6d;
+    border: 1.5px solid #26433b;
     padding: 20px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .post-content h3 {
-    color: #013e6d;
+    color: #26433b ;
     font-weight: bold;
     text-decoration: none;
     font-family: Lato, sans-serif;
@@ -54,13 +54,13 @@
 } */
 
 .accordion-body a {
-    color: #013e6d !important;
+    color: #26433b !important;
     font-weight: bold;
 }
 
 .post-content a:hover {
     text-decoration: underline;
-    text-decoration-color: #013e6d;
+    text-decoration-color: #26433b ;
 }
 
 .post-content .restack-image {
@@ -72,15 +72,15 @@
 }
 
 .load-more-button {
-    background-color: #013e6d;
-    border: 1px solid #013e6d;
+    background-color: #26433b ;
+    border: 1px solid #26433b ;
     font-family: Lato, sans-serif;
 }
 
 .load-more-button:hover {
     background-color: #fff;
-    color: #013e6d;
-    border-color: #0a4f7c;
+    color: #26433b ;
+    border-color: #26433b ;
 }
 
 .image-caption {

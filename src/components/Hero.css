@@ -28,9 +28,11 @@
   --bs-gutter-x: 0 !important;
     --bs-gutter-y: 0;
 }
+
+
 @media (max-width: 768px) {
   .helen-logo {
-    width: 150px;
+    width: 125px;
   }
   .hero-container {
     padding: 0;
@@ -48,3 +50,8 @@
   }
 }
 
+@media (min-width: 769px) and (max-width: 1399px) {
+  .helen-logo {
+    width: 300px;
+  }
+}

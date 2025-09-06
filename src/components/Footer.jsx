@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {Link} from "react-router-dom";
-import helenLogo from '../assets/helen-yoga.svg';
+import helenLogo from '../assets/sage_green_logo.svg';
 
 function Footer() {
     return(
@@ -20,7 +20,7 @@ function Footer() {
               <li role="listItem"><Link to="/">Home</Link></li>
               <li role="listItem"><Link to="/about">About</Link></li>
               <li role="listItem"><Link to="/blog">Blog</Link></li>
-              <li role="listItem"><Link to="/book">Book a Class</Link></li>
+              <li role="listItem"><Link to="/book">Book</Link></li>
               
             </ul>  
           </Col>
