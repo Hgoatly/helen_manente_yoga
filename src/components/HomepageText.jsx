@@ -5,8 +5,7 @@ import WorkWithMeButton from "../components/WorkWithMeButton";
 function HomepageText() {
   return (
     <div className="homepage-text">
-      <h1>Helen Manente Yoga</h1>
-      <p>Welcome to your yoga community!</p>
+      <h2>Welcome to your yoga community!</h2>
       <p>A place for you to feel completely comfortable in your own skin. A place where you can feel at ease. A place to explore your physical, mental and emotional wellbeing through yoga.</p>
       <p>I’m Helen, a Kent based yoga teacher on a quest to support you in your wellbeing. Holding a 500 hour British Wheel of Yoga Level 4 Teaching Diploma and hundreds of hours of teaching experience, I offer a range of sessions to suit <em>every body</em>. Every class includes asana (postures and movement), pranayama (breathing exercises) and meditation, all topped off with a guided relaxation!</p>
       <p>Whether you’re a complete beginner or have an established yoga practice, there’s something for you at my classes. Whatever your age, gender identity, state of health or physical fitness, you’ll be welcomed with open arms.</p>

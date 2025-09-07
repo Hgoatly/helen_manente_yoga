@@ -8,6 +8,9 @@ h1 {
     color: #26433b !important;
 }
 
+h2 {
+    color: #26433b !important;
+}
 @media screen and (max-width: 768px) {
     .homepage-text {
         padding: 20px;
