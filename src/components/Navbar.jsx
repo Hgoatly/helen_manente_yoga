@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import helenLogo from '../assets/sage_green_logo.svg';
+import { HashLink } from 'react-router-hash-link';
 
 
 function HelenNavbar() {
@@ -22,11 +23,16 @@ function HelenNavbar() {
             <Nav.Link className="nav-link" as={Link} to="/blog">Blog</Nav.Link>
             <Nav.Link className="nav-link" as={Link} to="/contact">Contact</Nav.Link>
             <NavDropdown title="Classes" id="basic-nav-dropdown">
-              <NavDropdown.Item className="nav-link-dropdown" href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item className="nav-link-dropdown" href="#action/3.2">
-                Another action
+            <NavDropdown.Item className="nav-link-dropdown" as={Link} to="/classes">Classes Overview</NavDropdown.Item>
+              <NavDropdown.Item className="nav-link-dropdown" href="#action/3.1"><HashLink smooth to="/classes#badgells-wood">Badgells Wood</HashLink></NavDropdown.Item>
+              <NavDropdown.Item className="nav-link-dropdown"><HashLink smooth to="/classes#yoga-and-music">Yoga and Music</HashLink>
+              
               </NavDropdown.Item>
-              <NavDropdown.Item className="nav-link-dropdown" href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item className="nav-link-dropdown"><HashLink smooth to="/classes#royal-academy">Royal Academy of Music</HashLink></NavDropdown.Item>
+              <NavDropdown.Item className="nav-link-dropdown"><HashLink smooth to="/classes#royal-academy">Metal Yoga</HashLink></NavDropdown.Item>
+              <NavDropdown.Item className="nav-link-dropdown"><HashLink smooth to="/classes#mindful-meetings">Mindful Meetings</HashLink></NavDropdown.Item>
+              <NavDropdown.Item className="nav-link-dropdown">NRG GYM Gravesend</NavDropdown.Item>
+              <NavDropdown.Item className="nav-link-dropdown"><HashLink smooth to="/classes#private-classes">Private Classes</HashLink></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item className="nav-link-dropdown" as={Link} to="/book">
                 Book a class

@@ -70,12 +70,37 @@ body, html {
     display: none; /* optional: hides default hamburger */
   }
 
-  .nav-link-dropdown {
+  .dropdown-menu {
     font-family: 'Abhaya Libre', serif;
     font-size: 20px !important;
     font-weight: bold;
-    color: #111 !important;
+    color: #e6efe9 !important;
+    background-color: #26433b !important;
+  }
+
+  .nav-link-dropdown {
+    color: #e6efe9 !important;
+  }
+
+ 
+
+  .nav-link-dropdown a {
+    text-decoration: none;
+    color: #e6efe9 !important;
   }
   
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #e6efe9 !important;
+    color: #26433b !important;
+  }
 
+@media screen and (max-width: 768px) {
+    .helen-logo-navbar {
+      width: 65px;
+    }
+    .nav-link {
+      font-size: 20px !important;
+    } 
+  
+}
   

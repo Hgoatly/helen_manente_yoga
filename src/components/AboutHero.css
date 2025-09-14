@@ -3,3 +3,67 @@
     height: 100%;
     object-fit: cover; /* Ensure the image covers the container without distortion */
   }
+
+  .hero-container {
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .helen-logo {
+    position: absolute; /* Position the logo on top of the hero image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the logo's dimensions */
+    width: 450px; /* Adjust size for mobile */
+    z-index: 10; 
+    background: #26433b !important;
+  }
+  .container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+    --bs-gutter-x: 0 !important;
+      --bs-gutter-y: 0;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .helen-logo {
+      width: 125px;
+    }
+    .hero-container {
+      padding: 0;
+    }
+    
+    .hero-col {
+      position: relative;
+      padding: 0;
+    }
+    
+    .about-hero-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1399px) {
+    .helen-logo {
+      width: 300px;
+    }
+  }
+  
