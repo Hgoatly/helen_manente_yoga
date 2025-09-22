@@ -1,12 +1,16 @@
 .about-text-outer {
     padding: 50px 122px;
     color: #111 !important;
-    background: #eee !important; 
+    background: #e6efe9 !important; 
 }
 
 h1 {
     color: #013e6d;
     font-weight: bold;
+}
+
+h2 {
+    color: #26433b !important;
 }
 
 @media screen and (max-width: 768px) {

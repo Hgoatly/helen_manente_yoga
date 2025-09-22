@@ -26,7 +26,7 @@ function Footer() {
           </Col>
             <Col>
                 <ul className="footer-links" role="list">
-                <li role="listItem"><Link to="/book">Contact</Link></li>
+                <li role="listItem"><Link to="/contact">Contact</Link></li>
                     <li role="listItem"><Link to="https://www.facebook.com/profile.php?id=100086441554105" target="_blank" rel="noopener noreferrer">Facebook</Link></li>
                     <li role="listItem"><Link to="https://www.instagram.com/helenmanenteyoga" target="_blank" rel="noopener noreferrer">Instagram</Link></li>
                     <li role="listItem"><Link to="https://www.youtube.com/channel/UC1Z5k4b2f8e9c3d7e5f8e9c" target="_blank" rel="noopener noreferrer">YouTube</Link></li>

@@ -6,10 +6,12 @@ import RoyalAcademyOfMusic from "../components/RoyalAcademyOfMusic";
 import MetalYoga from "../components/MetalYoga";
 import MindfulMeetings from "../components/MindfulMeetings";
 import PrivateClasses from "../components/PrivateClasses";
+import './Classes.css';
 
 function Classes() {
     return(
         <>
+        <div className="classes-container">
         <ClassesOverview />
         <BadgellsWood />
         <YogaAndMusic />
@@ -17,6 +19,7 @@ function Classes() {
         <MetalYoga />
         <MindfulMeetings />
         <PrivateClasses />
+        </div>
         </>
     )
 }

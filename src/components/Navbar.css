@@ -82,7 +82,10 @@ body, html {
     color: #e6efe9 !important;
   }
 
- 
+ .nav-link-dropdown a:hover {
+  background-color: #e6efe9 !important;
+    color: #26433b !important;
+ }
 
   .nav-link-dropdown a {
     text-decoration: none;

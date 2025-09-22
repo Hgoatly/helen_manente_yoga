@@ -1,11 +1,19 @@
 .blog-page {
     padding: 50px 122px;
     color: #111 !important;
-    background: #eee !important;
+    background: #e6efe9 !important; 
 }
 
 h1 {
     color: #013e6d;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
 }
 
 @media screen and (max-width: 768px) {
