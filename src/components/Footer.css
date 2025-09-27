@@ -28,9 +28,25 @@
     padding: 10px 0;
  }
 
+.affilliation-row {
+    display: flex;
+    justify-content: center;
+}
+
+ .affilliation-logo {
+    width: 100px !important;
+    height: auto;
+    margin-top: 25px;
+ }
+
  @media screen and (max-width: 787px) {
+    .logo-column {
+        display: flex;
+        align-items: center;
+    }
     .footer-logo {
         width: 100px;
+        margin: 0
     }
     .footer-links li a {
         font-size: 16px;
@@ -46,4 +62,10 @@
     .footer-links {
         text-align: center;
     }
+
+    .affilliation-logo {
+    width: 90px !important;
+    height: auto;
+    margin-top: 25px;
+ }
  }

@@ -24,7 +24,6 @@ form {
 
 @media screen and (max-width: 768px) {
     .contact-page {
-        height: 90vh;
         padding: 10px;
     }
 }

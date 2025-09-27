@@ -5,6 +5,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {Link} from "react-router-dom";
 import helenLogo from '../assets/sage_green_logo.svg';
+import bwyLogo from '../assets/bwy_logo.png';
+import yapLogo from '../assets/yap_logo.png';
+import ramLogo from '../assets/ram_logo.png';
+import nrgLogo from '../assets/nrg_logo.webp';
 
 function Footer() {
     return(
@@ -33,8 +37,15 @@ function Footer() {
                 </ul>
             </Col>
             
+       <Row className='affilliation-row'>
+        <img className="affilliation-logo" src={yapLogo} alt="Yoga alliance professionals yoga teacher" />
+        
+            <img className="affilliation-logo" src={bwyLogo} alt="British wheel of yoga accredited teacher" />
+            </Row>
+            
             <p className="footer-copyright text-center">© {new Date().getFullYear()} Helen Manente Yoga. All rights reserved.</p>
         </Row>
+       
       </Container>
         </footer>
         
