@@ -1,18 +1,22 @@
 // Updated code for Navbar.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import {Link} from "react-router-dom";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { useLocation, Link } from 'react-router-dom';
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import helenLogo from '../assets/sage_green_logo.svg';
 import { HashLink } from 'react-router-hash-link';
 
 
 function HelenNavbar() {
+  const [expanded, setExpanded] = useState(false);
+  const location = useLocation();
+
+  // Collapse navbar on route change
+  useEffect(() => {
+    setExpanded(false);
+  }, [location]);
   return (
-    <Navbar expand="lg" className="helen-navbar" sticky="top">
+    <Navbar expanded={expanded} onToggle={setExpanded} expand="lg" className="helen-navbar" sticky="top">
       <Container>
         <Navbar.Brand as={Link} to="/"><img className="helen-logo-navbar" src={helenLogo} alt="Helen Manente Yoga" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggle">Menu</Navbar.Toggle>

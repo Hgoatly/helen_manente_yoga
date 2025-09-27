@@ -2,3 +2,9 @@
     background: #e6efe9 !important; 
     padding: 50px 122px;
 }
+
+ @media screen and (max-width: 787px) {
+    .classes-container {
+        padding: 20px;
+    }
+ }

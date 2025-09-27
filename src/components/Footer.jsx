@@ -7,8 +7,6 @@ import {Link} from "react-router-dom";
 import helenLogo from '../assets/sage_green_logo.svg';
 import bwyLogo from '../assets/bwy_logo.png';
 import yapLogo from '../assets/yap_logo.png';
-import ramLogo from '../assets/ram_logo.png';
-import nrgLogo from '../assets/nrg_logo.webp';
 
 function Footer() {
     return(
