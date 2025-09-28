@@ -27,7 +27,8 @@ export default function ContactForm() {
       <section className="contact-page">
         <div className="container">
           <h1>Contact me</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Please use this form to get in touch if you would like to connect or collaborate and I'll get back to you as quickly as possible. If you'd like to attend a class, have an idea for an event, or any other yoga-related query, I'm here to help!
+</p>
           <form
             target="_blank"
             action="https://formsubmit.co/45ea9e2cad8fe549833beb33a1acad74"

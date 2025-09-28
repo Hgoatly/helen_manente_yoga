@@ -3,6 +3,11 @@
     padding: 50px 122px;
 }
 
+.anchor-link {
+    color: #212529;
+    text-decoration: underline;
+}
+
  @media screen and (max-width: 787px) {
     .classes-container {
         padding: 20px;

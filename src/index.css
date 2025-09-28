@@ -37,6 +37,9 @@ h1 {
   font-family: 'Abhaya Libre', serif;
 }
 
+h2 {
+  font-family: 'Abhaya Libre', serif;
+}
 
 button {
   border-radius: 8px;
@@ -59,6 +62,10 @@ button:focus-visible {
 
 p {
   font-family: 'Lato', sans-serif;
+}
+
+.helen-logo {
+  border: 1px solid black;
 }
 
 @media (prefers-color-scheme: light) {
