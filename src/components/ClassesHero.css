@@ -1,0 +1,28 @@
+.classes-hero-image {
+    min-width: 100vw;
+} 
+ 
+ @media (max-width: 768px) {
+    .helen-logo {
+      width: 125px;
+      top: 25%;
+    }
+    
+    .hero-col {
+      position: relative;
+      padding: 0;
+    }
+    
+    .classes-hero-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1399px) {
+    .helen-logo {
+      width: 300px;
+    }
+  }
+  
