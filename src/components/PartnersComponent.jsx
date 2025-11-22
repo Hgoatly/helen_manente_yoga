@@ -8,7 +8,7 @@ import heavyMetalTherapy from '../assets/heavy-metal-therapy.jpg';
 import innOnLake from '../assets/inn-on-lake-logo.png';
 import ram from '../assets/ram.png';
 import smolLogo from '../assets/smol_logo .jpeg';
-import lkLogo from '../assets/lk-logo-small.svg';
+import lkLogo from '../assets/lk-logo-large.png';
 import nrg from '../assets/nrg.webp';
 import middleEarthYoga from '../assets/middle_earth_yoga_logo.png';
 
