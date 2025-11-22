@@ -8,7 +8,8 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Book from './pages/Book';
 import Classes from './pages/Classes';
-import Contact from './components/ContactForm'; // Import the Contact page
+import Contact from './components/ContactForm'; 
+import Partners from './pages/Partners.jsx'; 
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/book" element={<Book />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/classes" element={<Classes />} />
+        <Route path="/partners" element={<Partners />} />
       </Routes>
       <Footer />
     </Router>
